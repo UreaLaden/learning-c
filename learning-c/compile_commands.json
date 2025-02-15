@@ -1,0 +1,5 @@
+[{
+		"file":	"D:\\Repos\\learning-c\\learning-c\\Project1\\main.c",
+		"directory":	"D:\\Repos\\learning-c\\learning-c\\Project1",
+		"command":	"C:/cygwin64/bin/gcc.exe -c D:\\Repos\\learning-c\\learning-c\\Project1\\main.c -o D:\\Repos\\learning-c\\learning-c\\Project1\\main.c.o -target x86_64-pc-cygwin -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+	}]
