@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="learning-c" Database="" Version="10000">
-  <Project Name="Project1" Path="Project1/Project1.project" Active="Yes"/>
+  <Project Name="MySecondProject" Path="MySecondProject/MySecondProject.project" Active="No"/>
+  <Project Name="Challenges" Path="Challenges/Challenges.project" Active="No"/>
+  <Project Name="EnumPractice" Path="EnumPractice/EnumPractice.project" Active="No"/>
+  <Project Name="BasicMat" Path="BasicMat/BasicMat.project" Active="No"/>
+  <Project Name="CommandLineArgs" Path="CommandLineArgs/CommandLineArgs.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
-      <Project Name="Project1" ConfigName="Debug"/>
+      <Project Name="OurFirstProject" ConfigName="Debug"/>
+      <Project Name="MySecondProject" ConfigName="Debug"/>
+      <Project Name="Challenges" ConfigName="Debug"/>
+      <Project Name="EnumPractice" ConfigName="Debug"/>
+      <Project Name="BasicMat" ConfigName="Debug"/>
+      <Project Name="CommandLineArgs" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
-      <Project Name="Project1" ConfigName="Release"/>
+      <Project Name="OurFirstProject" ConfigName="Release"/>
+      <Project Name="MySecondProject" ConfigName="Release"/>
+      <Project Name="Challenges" ConfigName="Release"/>
+      <Project Name="EnumPractice" ConfigName="Release"/>
+      <Project Name="BasicMat" ConfigName="Release"/>
+      <Project Name="CommandLineArgs" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

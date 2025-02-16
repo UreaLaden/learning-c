@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Project1
+ProjectName            :=MySecondProject
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=D:/Repos/learning-c/learning-c
-ProjectPath            :=D:/Repos/learning-c/learning-c/Project1
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Project1
+ProjectPath            :=D:/Repos/learning-c/learning-c/MySecondProject
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/MySecondProject
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=leaun
+User                   :=rdpuser
 Date                   :=15/02/2025
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir -p
@@ -39,7 +39,7 @@ ObjectsFileList        :=$(IntermediateDirectory)/ObjectsList.txt
 PCHCompileFlags        :=
 RcCmpOptions           := 
 RcCompilerName         :=windres
-LinkOptions            :=  -static
+LinkOptions            :=  
 IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
 RcIncludePath          := 
@@ -51,11 +51,11 @@ LibPath                := $(LibraryPathSwitch).
 ## Common variables
 ## AR, CXX, CC, AS, CXXFLAGS and CFLAGS can be overridden using an environment variable
 ##
-AR       := C:/cygwin64/bin/ar.exe rcu
+AR       := C:/cygwin64/bin/ar.exe
 CXX      := C:/cygwin64/bin/gcc.exe
 CC       := C:/cygwin64/bin/gcc.exe
 CXXFLAGS :=  -gdwarf-2 -O0 -Wall $(Preprocessors)
-CFLAGS   :=  -O0 -gdwarf-2 -std=c99 -Wall $(Preprocessors)
+CFLAGS   :=  -gdwarf-2 -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := C:/cygwin64/bin/as.exe
 
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "D:/Repos/learning-c/learning-c/Project1/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "D:/Repos/learning-c/learning-c/MySecondProject/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 

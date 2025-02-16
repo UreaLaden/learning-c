@@ -1,5 +1,21 @@
 [{
-		"file":	"D:\\Repos\\learning-c\\learning-c\\Project1\\main.c",
-		"directory":	"D:\\Repos\\learning-c\\learning-c\\Project1",
-		"command":	"C:/cygwin64/bin/gcc.exe -c D:\\Repos\\learning-c\\learning-c\\Project1\\main.c -o D:\\Repos\\learning-c\\learning-c\\Project1\\main.c.o -target x86_64-pc-cygwin -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+		"file":	"D:\\Repos\\learning-c\\learning-c\\CommandLineArgs\\main.c",
+		"directory":	"D:\\Repos\\learning-c\\learning-c\\CommandLineArgs",
+		"command":	"C:/cygwin64/bin/gcc.exe -c D:\\Repos\\learning-c\\learning-c\\CommandLineArgs\\main.c -o D:\\Repos\\learning-c\\learning-c\\CommandLineArgs\\main.c.o -target x86_64-pc-cygwin -I. -I.  -gdwarf-2  -O0  -Wall"
+	}, {
+		"file":	"D:\\Repos\\learning-c\\learning-c\\Challenges\\test.c",
+		"directory":	"D:\\Repos\\learning-c\\learning-c\\Challenges",
+		"command":	"C:/cygwin64/bin/gcc.exe -c D:\\Repos\\learning-c\\learning-c\\Challenges\\test.c -o D:\\Repos\\learning-c\\learning-c\\Challenges\\test.c.o -target x86_64-pc-cygwin -I. -I.  -gdwarf-2  -O0  -Wall"
+	}, {
+		"file":	"D:\\Repos\\learning-c\\learning-c\\BasicMat\\main.c",
+		"directory":	"D:\\Repos\\learning-c\\learning-c\\BasicMat",
+		"command":	"C:/cygwin64/bin/gcc.exe -c D:\\Repos\\learning-c\\learning-c\\BasicMat\\main.c -o D:\\Repos\\learning-c\\learning-c\\BasicMat\\main.c.o -target x86_64-pc-cygwin -I. -I.  -gdwarf-2  -O0  -Wall"
+	}, {
+		"file":	"D:\\Repos\\learning-c\\learning-c\\EnumPractice\\main.c",
+		"directory":	"D:\\Repos\\learning-c\\learning-c\\EnumPractice",
+		"command":	"C:/cygwin64/bin/gcc.exe -c D:\\Repos\\learning-c\\learning-c\\EnumPractice\\main.c -o D:\\Repos\\learning-c\\learning-c\\EnumPractice\\main.c.o -target x86_64-pc-cygwin -I. -I.  -gdwarf-2  -O0  -Wall"
+	}, {
+		"file":	"D:\\Repos\\learning-c\\learning-c\\MySecondProject\\main.c",
+		"directory":	"D:\\Repos\\learning-c\\learning-c\\MySecondProject",
+		"command":	"C:/cygwin64/bin/gcc.exe -c D:\\Repos\\learning-c\\learning-c\\MySecondProject\\main.c -o D:\\Repos\\learning-c\\learning-c\\MySecondProject\\main.c.o -target x86_64-pc-cygwin -I. -I.  -gdwarf-2  -O0  -Wall"
 	}]
